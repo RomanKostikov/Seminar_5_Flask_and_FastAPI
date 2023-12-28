@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашнее задание №5</title>
+</head>
+<body>
+{% if song %}
+<h1>Название: {{ song.name }}</h1>
+<p><b>Автор: {{ song.author }}</b></p>
+{% if song.description %}
+Описание:
+<div>
+    {{ song.description }}
+</div>
+{% endif %}
+<i>Жанр: {{ song.genre }}</i>
+{% else %}
+<h1>Песня не найдена!</h1>
+{% endif %}
+
+<a href="/"><h2>На главную</h2></a>
+</body>
+</html>

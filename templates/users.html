@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 6</title>
+</head>
+<body>
+<h1>Задание 6</h1>
+{% for user in users %}
+<div>
+    <h3>{{ user.name }}</h3>
+    <p>{{ user.id }}</p>
+    <p>{{ user.email }}</p>
+</div>
+{% endfor %}
+
+<form method=post action="/">
+    <input type="text" name="name" placeholder="Name">
+    <input type="text" name="email" placeholder="Email">
+    <input type="password" name="password" placeholder="Password">
+    <input type="number" name="id" placeholder="Id">
+    <button type="submit">Создать нового пользователя</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "name": "Numb",
+    "author": "Linkin Park",
+    "description": "One of my favourite Linkin Park songs",
+    "genre": "Rock"
+  },
+  {
+    "id": 1,
+    "name": "На заре",
+    "author": "Баста",
+    "description": "",
+    "genre": "Rap/pop"
+  },
+  {
+    "id": 2,
+    "name": "Кукла колдуна",
+    "author": "Король и Шут",
+    "description": "",
+    "genre": "Rock"
+  }
+]
